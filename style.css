@@ -77,15 +77,20 @@ section{
     display:inline-block;
     width: 45%;
 
-    margin: 0 15px;
+    margin: 15px 15px;
 }
 
 p{
     color: rgb(86, 86, 86);
 }
 
-.section-article{
+.section-article-text{
     display: flex;
     align-items: center;
 
+}
+
+.section-article-img{
+    width: 100%;
+    display: block;
 }
