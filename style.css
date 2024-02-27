@@ -8,7 +8,6 @@ body {
 
     color: black;
 
-    display: flex;
     justify-content: center;
 }
 
@@ -51,6 +50,12 @@ nav{
     display: flex;
     justify-content: center;
     flex-wrap: none;
+
+    position: sticky;
+    top: 0px;
+
+    z-index: 2;
+    background-color: white;
 }
 
 ul{
@@ -73,9 +78,16 @@ h2{
     display: block;
 }
 
-section{
+.two-section-article{
     display:inline-block;
     width: 45%;
+
+    margin: 15px 15px;
+}
+
+.three-section-article{
+    display:inline-block;
+    width: 28%;
 
     margin: 15px 15px;
 }
@@ -93,4 +105,16 @@ p{
 .section-article-img{
     width: 100%;
     display: block;
+}
+
+footer a:link{
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #777;
+    padding: 1px;
 }
